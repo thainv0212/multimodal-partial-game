@@ -1,0 +1,11 @@
+name: "deathmatch"
+
+data_module:
+  _target_: dataset.vizdoom.VizdoomDataModule
+  dataset: "bimodal"
+  batch_size: 64
+  num_workers: 16
+  max_size: 1e4
+  seed: 42
+
+

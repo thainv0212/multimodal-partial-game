@@ -1,0 +1,64 @@
+{
+    "mimic": {
+        "path": "/path/to/mimic/im.pk"
+    },
+    "mosi": {
+        "path": "/path/to/mosi/mosi_data.pkl"
+    },
+    "mosei": {
+        "path": "/path/to/mosei/mosei_senti_data.pkl"
+    },
+    "humor": {
+        "path": "/path/to/humor/humor.pkl"
+    },
+    "sarcasm": {
+        "path": "/path/to/sarcasm/sarcasm.pkl"
+    },
+    "visionandtouch": {
+        "path": "/path/to/visionandtouch/triangle_real_data"
+    },
+    "mmimdb": {
+        "path": "/path/to/mmimdb",
+        "metadata": "/path/to/mmimdb"
+    },
+    "hateful_memes": {
+        "path": "/path/to/hateful_memes",
+        "metadata": "/path/to/hateful_memes"
+    },
+    "trifeatures": {
+        "path": "/mnt/DATA/CoMM-clone/datasets/trifeatures_3combi"
+    },
+    "my_way_home": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/my_way_home"
+    },
+    "deadly_corridor": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/deadly_corridor"
+    },
+    "vizdoom15": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom15"
+    },
+    "vizdoom16": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom16"
+    },
+    "vizdoom17": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom17"
+    },
+    "deathmatch": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/deathmatch"
+    },
+    "vizdoom9": {
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom9"
+    },
+    "defend_the_center":{
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/defend_the_center"
+    },
+    "vizdoom18":{
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom18"
+    },
+    "vizdoom19":{
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom19"
+    },
+    "vizdoom20":{
+        "path": "/mnt/DATA/Thai/CoMM-clone/datasets/vizdoom20"
+    }
+}
