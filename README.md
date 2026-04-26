@@ -33,3 +33,9 @@
       mode="train" \
       trainer.max_epochs=100
 ```
+
+## Training reinforcement learning agent
+```bash
+    cd rl
+    python -m sf_examples.vizdoom.train_vizdoom --env=vizdoom20 --train_for_env_steps=500000000 --algo=APPO --env_frameskip=4 --use_rnn=True --wide_aspect_ratio=False --num_workers=36 --num_envs_per_worker=8 --decorrelate_envs_on_one_worker=False --train_dir=train_dir/my_way_home --encoder_type=gmc16 --gmc_model_file=path_to_model --use_sound
+```
