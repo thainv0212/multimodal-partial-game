@@ -158,7 +158,7 @@ def enjoy(cfg: Config) -> Tuple[StatusCode, float]:
 
     reward_list = []
 
-    obs, infos = env.reset()
+    obs, infos = env.reset(cfg.seed)
     action_mask = obs.pop("action_mask").to(device) if "action_mask" in obs else None
     rnn_states = torch.zeros([env.num_agents, get_rnn_size(cfg)], dtype=torch.float32, device=device)
     episode_reward = None
