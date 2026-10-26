@@ -1,4 +1,4 @@
-# This repository contains source code and data for paper "An Effective Multimodal Approach for Blind Reinforcement Agents in Partially Observable Games"
+# This repository contains source code and data for paper "Toward On-Device Audio Agents: Efficient Sound-Based Navigation via Decoupled Multimodal Learning"
 
 ## Folder structure:
 - multimodal training: containing source code to train the proposed multimodal encoders.
